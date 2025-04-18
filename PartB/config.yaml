@@ -1,0 +1,5 @@
+train_dir: inaturalist_12K/train/
+test_dir: inaturalist_12K/val/
+batch_size: 64
+epoch: 5
+learning_rate: 1e-4

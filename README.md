@@ -9,4 +9,9 @@
 - [Sweep Homepage Scratch](https://wandb.ai/da24s016-indian-institute-of-technology-madras/da6401-assignment2?nw=nwuserda24s016)
 
 - [Sweep Homepage Finetuning](https://wandb.ai/da24s016-indian-institute-of-technology-madras/resnet50-pytorch-tuning/sweeps/im2xbayo?nw=nwuserda24s016)
-
+---
+Please install the dataset before running any of the .py files
+```bash
+ wget https://storage.googleapis.com/wandb_datasets/nature_12K.zip
+ unzip nature_12K.zip
+```

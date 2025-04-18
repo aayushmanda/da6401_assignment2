@@ -2,13 +2,16 @@
 
 
 
-- [Assignment Report](https://wandb.ai/da24s016-indian-institute-of-technology-madras/da6401-assignment2/reports/DA6401-Assignment-2--VmlldzoxMjA5OTc1MQ)
+This repository contains the implementation for **DA6401 Assignment 2**, a computer vision project focused on classifying images from the iNaturalist dataset using a custom Convolutional Neural Network (CNN) and a fine-tuned ResNet50 model. The project includes data preprocessing, model training, hyperparameter tuning via Weights & Biases (WandB) sweeps, and visualization of predictions.
 
-- [Sweep Homepage Scratch with Parallel Plot](https://wandb.ai/da24s016-indian-institute-of-technology-madras/da6401-assignment2/sweeps/letqkeos?nw=nwuserda24s016)
+- **Assignment Report**: [WandB Report](https://wandb.ai/da24s016-indian-institute-of-technology-madras/da6401-assignment2/reports/DA6401-Assignment-2--VmlldzoxMjA5OTc1MQ)
+- **GitHub Repository**: [aayushmanda/da6401_assignment2](https://github.com/aayushmanda/da6401_assignment2)
+- **WandB Sweep Links**:
+  - [Sweep Homepage (Scratch with Parallel Plot)](https://wandb.ai/da24s016-indian-institute-of-technology-madras/da6401-assignment2/sweeps/letqkeos?nw=nwuserda24s016)
+  - [Sweep Homepage (Scratch)](https://wandb.ai/da24s016-indian-institute-of-technology-madras/da6401-assignment2?nw=nwuserda24s016)
+  - [Sweep Homepage (Fine-tuning ResNet50)](https://wandb.ai/da24s016-indian-institute-of-technology-madras/resnet50-pytorch-tuning/sweeps/im2xbayo?nw=nwuserda24s016)
 
-- [Sweep Homepage Scratch](https://wandb.ai/da24s016-indian-institute-of-technology-madras/da6401-assignment2?nw=nwuserda24s016)
 
-- [Sweep Homepage Finetuning](https://wandb.ai/da24s016-indian-institute-of-technology-madras/resnet50-pytorch-tuning/sweeps/im2xbayo?nw=nwuserda24s016)
 ---
 Please install the dataset before running any of the .py files
 ```bash

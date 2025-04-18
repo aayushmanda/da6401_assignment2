@@ -115,6 +115,8 @@ model.to(device)
 lossi = []
 best_val_acc = 0.0
 
+
+######### Training loop #########
 for epoch in range(num_epochs):
     print(f'Epoch {epoch + 1}/{num_epochs}')
     print('-' * 10)

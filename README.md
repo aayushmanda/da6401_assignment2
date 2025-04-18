@@ -15,3 +15,26 @@ Please install the dataset before running any of the .py files
  wget https://storage.googleapis.com/wandb_datasets/nature_12K.zip
  unzip nature_12K.zip
 ```
+
+## Dataset
+The project uses the [**iNaturalist 12K dataset**](https://storage.googleapis.com/wandb_datasets/nature_12K.zip). Download and extract it as follows:
+
+```
+da6401_assignment2/
+├── PartA/                    # Files for custom CNN implementation
+│   ├── config.yaml           # Configuration for dataset paths and hyperparameters
+│   ├── visualization.py      # Utility for plotting prediction grid
+│   ├── da6401_A.ipynb        # Jupyter notebook for training and evaluation
+│   ├── train.py              # Script for training the custom CNN
+│   ├── model.py              # Custom CNN model definition (FlexibleCNN)
+│
+├── PartB/                    # Files for ResNet50 fine-tuning
+│   ├── config.yaml           # Configuration for dataset paths and hyperparameters
+│   ├── train.py              # Script for fine-tuning ResNet50
+│   ├── sweep.ipynb           # Notebook for hyperparameter sweeps with WandB
+│   ├── model.py              # ResNet50 model setup and fine-tuning logic
+│   ├── da6401_B.ipynb        # Jupyter notebook for fine-tuning and evaluation
+│
+├── requirements.txt          # Python dependencies for both parts
+├── README.md                 # Project overview and setup instructions
+```
